@@ -3,7 +3,7 @@ import resumeService from './resumeService.js'
 
 class AIService {
   constructor() {
-    this.backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5001'
+    this.backendUrl = 'https://api.buildwithhimanshu.com'
     this.apiEndpoint = `${this.backendUrl}/api/ai/chat`
     this.healthEndpoint = `${this.backendUrl}/api/ai/health`
     this.isModelLoaded = true // Assume backend is available
@@ -279,7 +279,8 @@ class AIService {
         },
         body: JSON.stringify({
           query: userQuery,
-          chatHistory: chatHistory
+          chatHistory: chatHistory,
+          resumeData: resumeData
         })
       })
 

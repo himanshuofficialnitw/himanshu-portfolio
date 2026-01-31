@@ -17,7 +17,7 @@ Key Features:
 • Automated routing to relevant departments
 • Analytics dashboard for administrators
 • Mobile-responsive design`,
-      ghLink: "https://github.com/himanshu-03/Grievance-Portal",
+      ghLink: "https://github.com/himanshuofficialnitw",
       demoLink: "https://grievance-portal.herokuapp.com/",
       techStack: resumeData.projects[0].technologies.join(", ")
     },
@@ -32,7 +32,7 @@ Key Features:
 • Search functionality with filters
 • Rating and review system
 • Real-time notifications`,
-      ghLink: "https://github.com/himanshu-03/NITADDA",
+      ghLink: "https://github.com/himanshuofficialnitw/nitadda",
       demoLink: "https://nitadda.herokuapp.com/",
       techStack: resumeData.projects[1].technologies.join(", ")
     },
@@ -41,7 +41,7 @@ Key Features:
       technologies: ["Generative AI", "SQL", "Python", "OpenAI"],
       description: "An AI-powered assistant that translates English text into SQL queries for business collaboration at Wayfair.",
       imgPath: "https://raw.githubusercontent.com/himanshu-03/Portfolio/main/src/Assets/Projects/chatbot.png",
-      ghLink: "https://github.com/himanshukadian",
+      ghLink: "https://github.com/himanshuofficialnitw",
       techStack: "Generative AI, SQL, Python, OpenAI"
     }
   ];

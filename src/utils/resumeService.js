@@ -1,6 +1,6 @@
 class ResumeService {
   constructor() {
-    this.backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5001';
+    this.backendUrl = 'https://api.buildwithhimanshu.com';
     this.apiEndpoint = `${this.backendUrl}/api/resume`;
     
     console.log('🔧 Resume Service initialized');

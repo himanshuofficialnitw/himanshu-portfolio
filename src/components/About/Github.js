@@ -9,7 +9,7 @@ function Github({ customTitle }) {
         {customTitle || (<span>Days I <strong className="purple">Code</strong></span>)}
       </h1>
       <GitHubCalendar
-        username="soumyajit4419"
+        username="himanshuofficialnitw"
         blockSize={15}
         blockMargin={5}
         color="#c084f5"
